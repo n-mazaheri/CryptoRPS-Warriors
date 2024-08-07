@@ -1,0 +1,281 @@
+html {
+  font-size: 0.8vw;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.header {
+  background: linear-gradient(90deg, rgba(32, 204, 123, 1) 0%, rgba(32, 204, 96, 1) 63%);
+  height: 40rem;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  border-radius: 50%/0% 0 10rem 10rem;
+}
+.coins {
+  width: 40rem;
+}
+.hcol1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  font-weight: 200;
+}
+.hcol2 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.headerText1 {
+}
+.headerText2 {
+  font-weight: 800;
+}
+.headerText3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 50%;
+  margin-top: 2rem;
+}
+.logo1 {
+  width: 15rem !important;
+  top: 23rem;
+  left: -5rem;
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button1 {
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 2rem;
+  width: 20rem;
+  height: 7rem;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+.buttonParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagesParent {
+  position: relative;
+}
+
+.hands {
+  width: 40rem;
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 10rem;
+}
+.logo2 {
+  width: 15rem;
+  position: absolute;
+  top: 22rem;
+  left: 25rem;
+}
+.border {
+  width: 40rem;
+  height: 20rem;
+  border-style: outset;
+  border-width: 1rem;
+  border-color: rgb(65, 127, 208);
+  margin-top: 10rem;
+}
+.about {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  display: flex;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  gap: 5rem;
+  color: #191d34;
+}
+.acol1 {
+  position: relative;
+}
+.acol2 {
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
+.ahead {
+  font-weight: 800;
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+.atext {
+  line-height: 2rem;
+  color: gray;
+  font-size: 1.5rem;
+}
+.blockchain {
+  width: 50rem;
+}
+.featurs-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.featurs {
+  font-size: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
+}
+.contact {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40rem;
+  border-top-right-radius: 50% 20%;
+  border-top-left-radius: 50% 20%;
+}
+
+.cover-img {
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+.cover-img {
+  border: 2rem solid #fff;
+  -webkit-box-shadow: 0 0.2rem 2rem -0.5rem rgb(0 0 0 / 30%);
+  box-shadow: 0 0.2rem 2rem -0.5rem rgb(0 0 0 / 30%);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  width: 40rem;
+}
+
+.dogsImages {
+  position: relative;
+}
+.logo3 {
+  width: 9rem;
+  position: absolute;
+  top: 20rem;
+  left: -5rem;
+}
+.button {
+  width: 20rem;
+  height: 5rem;
+  border: none;
+  background-color: white;
+  border-radius: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: rgb(65, 127, 208);
+  height: 10rem;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.fhead {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.ftext {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.ftext span {
+  font-weight: 700;
+}
+.ftext img {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+}
+
+@media (min-width: 550px) and (max-width: 1200px) {
+  html {
+    font-size: 1.1vw;
+  }
+  .hcol1 {
+    margin-right: -5rem;
+    padding-left: 5rem;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 1.5vw;
+  }
+  .logo1 {
+    top: 20rem;
+    width: 30rem;
+  }
+  .featurs-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .featurs > .ahead {
+    padding-left: 5rem;
+  }
+
+  .coins {
+    width: 32rem;
+  }
+  .hcol2 {
+    display: flex;
+    align-items: center;
+  }
+  .hcol1 {
+    padding-left: 5rem;
+  }
+  .headerText1 {
+    font-size: 4rem;
+  }
+  .headerText2 {
+    font-size: 4rem;
+  }
+  .button {
+    font-size: 2rem;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+  .acol1 {
+    padding-left: 5rem;
+  }
+  .cat {
+    left: 10rem;
+    top: 4rem;
+  }
+  .logo2 {
+    top: 25rem;
+    left: 30rem;
+  }
+  .img-fluid {
+    width: 20rem;
+  }
+  .logo3 {
+    top: 14rem;
+  }
+  .atext {
+    font-size: 1.8rem;
+  }
+}

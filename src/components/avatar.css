@@ -1,0 +1,17 @@
+.avatar-image {
+  width: 5rem;
+}
+.avatar-item {
+  display: flex !important;
+  justify-content: center !important;
+}
+.MuiSelect-select {
+  display: flex !important;
+  justify-content: center !important;
+}
+.avatar-parent {
+  width: 50%;
+}
+.avatar-text {
+  font-size: 1.5rem !important;
+}

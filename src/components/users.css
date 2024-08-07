@@ -1,0 +1,41 @@
+.users {
+  color: #191d34;
+}
+.users-img {
+  width: 3rem;
+  border-radius: 50%;
+}
+.user {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom-style: solid;
+  border-color: rgb(65, 127, 208);
+  border-width: 0.2rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.warning {
+  color: orange;
+  font-size: 1rem;
+}
+
+.circle {
+  width: 0.8rem;
+  background-color: rgb(34, 243, 34);
+  border-radius: 50%;
+  height: 0.8rem;
+  position: absolute;
+  top: 3px;
+  border-style: solid;
+  border-color: green;
+  border-width: 0.1rem;
+}
+
+.user-image-parent {
+  position: relative;
+}

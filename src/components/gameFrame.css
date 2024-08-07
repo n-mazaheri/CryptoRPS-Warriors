@@ -1,0 +1,116 @@
+.gameFrame-box {
+  border-width: 0.3rem;
+  border-style: solid;
+  border-color: rgb(65, 127, 208);
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5), /* Larger shadow */;
+  overflow: hidden;
+  font-size: 1.8rem;
+  height: fit-content;
+  color: #191d34;
+}
+.gameFrame-state {
+  background-color: rgba(32, 204, 123, 1);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.gameFrame-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.button-image {
+  width: 7rem;
+}
+.gameFrame-button-parent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.gameFrame-button {
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+}
+
+.gameFrame-oponent {
+  width: 3rem;
+}
+.oponent-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.move {
+  display: flex;
+  justify-content: center;
+}
+.warning {
+  color: orange;
+}
+.value-input {
+  width: 4rem;
+}
+.timer {
+  width: 4rem;
+}
+
+.timer-parent {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 1.2rem;
+  justify-content: center;
+}
+.win {
+  width: 10rem;
+}
+.lose {
+  width: 5rem;
+}
+.contract {
+  width: 3rem;
+}
+.contract-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  color: gray;
+}
+
+.contract-parent a {
+  color: gray !important;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.loading {
+  width: 2rem;
+}
