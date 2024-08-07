@@ -36,8 +36,9 @@ export default function GameFrame(props) {
         try {
           setLoading(true);
           let contractAddress = await deployGameContract(selectedUser.walletAddress, selectedMove, value);
+          await delay(2000);
           await insertGame(selectedUser._id, contractAddress);
-          await delay(4000);
+          await delay(2000);
           await getUserGames();
           setLoading(false);
         } catch (exception) {
