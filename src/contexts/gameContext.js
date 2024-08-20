@@ -27,7 +27,7 @@ const GameProvider = ({ children }) => {
 
   useEffect(() => {
     // Connect to the WebSocket server
-    const newSocket = io('http://localhost:3002'); // Adjust the URL if needed
+    const newSocket = io('https://cryptorps-warriors-back.netlify.app:3002'); // Adjust the URL if needed
     setSocket(newSocket);
     if (user) {
       newSocket.emit('join', user?._id);
